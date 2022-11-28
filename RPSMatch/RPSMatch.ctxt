@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=RPSMatch
+comment0.text=\n\ Write\ a\ description\ of\ class\ RPSMatch\ here.\n\n\ @author\ (Kandace\ and\ Amy)\n\ @version\ (10/24/22)\n
+comment1.params=
+comment1.target=RPSMatch()
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ RPSMatch\n
+comment2.params=Hp
+comment2.target=void\ setHumanPlay(java.lang.String)
+comment3.params=
+comment3.target=java.lang.String\ getComputerPlay()
+comment3.text=cheating\ version
+comment4.params=
+comment4.target=java.lang.String\ getResult()
+comment4.text=\ non-cheating\ version\ \n\ \ \ \ public\ String\ getComputerPlay()\n\ \ \ \ {\n\ \ \ \ \ \ \ \ int\ cP\ \=\ (int)(Math.random()\ *\ 3\ +\ 1);\n\ \ \ \ \ \ \ \ if\ (cP\ \=\=\ 1)\n\ \ \ \ \ \ \ \ {\n\ \ \ \ \ \ \ \ \ \ \ \ computerPlay\ \=\ "rock";\n\ \ \ \ \ \ \ \ }\ \n\ \ \ \ \ \ \ \ else\ if\ (cP\ \=\=\ 2)\n\ \ \ \ \ \ \ \ {\n\ \ \ \ \ \ \ \ \ \ \ \ computerPlay\ \=\ "paper";\n\ \ \ \ \ \ \ \ }\n\ \ \ \ \ \ \ \ else\ \n\ \ \ \ \ \ \ \ {\n\ \ \ \ \ \ \ \ \ \ \ \ computerPlay\ \=\ "scissors";\n\ \ \ \ \ \ \ \ }\n\ \ \ \ \ \ \ \ return\ computerPlay;\n\ \ \ \ }\n
+comment5.params=
+comment5.target=int\ getHumanWins()
+comment6.params=
+comment6.target=int\ getComputerWins()
+comment7.params=
+comment7.target=int\ getTies()
+numComments=8
